@@ -32,7 +32,7 @@ Open:
 ## Single Domain Deployment
 Use Next.js rewrites in `web/next.config.js` to proxy `/api/*` to backend internal service. This gives one-domain UX behind a reverse proxy / ingress.
 
-## China-friendly Setup
+## China-Mainland-friendly Setup
 - Configure Docker registry mirrors in daemon config.
 - Set proxy env vars before build if required:
 ```bash
